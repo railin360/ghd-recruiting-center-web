@@ -16,5 +16,40 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "id": "./",
+  "scope": "./",
+  "description": "GHD Logistics Recruiting Center and Talent Scout for the Hopewell, Virginia team.",
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Talent Scout",
+      "short_name": "Talent Scout",
+      "description": "View recruiting activity",
+      "url": "./scout.html",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Driver Opportunities",
+      "short_name": "Driver Jobs",
+      "description": "See current driving positions",
+      "url": "./#positions",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
   ]
 }
