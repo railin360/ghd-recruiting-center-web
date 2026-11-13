@@ -1,3 +1,5 @@
-# GHD Recruiting Center Public Website
+# GHD Recruiting Center (Public Website)
 
-Branded public-facing recruitment pages for GHD Logistics. No applicant personal information or server credentials are stored here. Secure application handling remains separate.
+This repository contains only the public-facing recruiting website. It is published through GitHub Pages.
+
+The secure Cloudflare backend is under development in the separate private repository `railin360/ghd-recruiting-center`. This frontend currently routes candidates to the existing recruiting portal for application intake. No candidate personal data is committed here.
