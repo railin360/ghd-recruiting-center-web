@@ -1,62 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#07172b">
-<meta name="description" content="GHD Logistics recruiter portal for authorized hiring personnel in Hopewell, Virginia.">
-<title>Recruiter Portal | GHD Recruiting Center</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07172b"><meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Authorized GHD Logistics recruiter sign-in.">
+<title>Recruiter Sign-In | GHD Recruiting Center</title>
 <link rel="icon" href="icon-192.png"><link rel="manifest" href="manifest.webmanifest">
-<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="install.css"><link rel="stylesheet" href="recruiter.css">
-<script defer src="app.js"></script><script defer src="install.js"></script>
+<link rel="stylesheet" href="styles.css">
+<style>
+body{background:#07172b;color:#edf4ff}
+.auth-shell{min-height:calc(100svh - 155px);display:flex;align-items:center;justify-content:center;padding:48px 20px;background:radial-gradient(ellipse at 70% 20%,#19467a,#092443 50%,#061527)}
+.auth-panel{max-width:520px;width:100%;background:#fff;color:#10223a;border:1px solid #cce0f7;border-radius:22px;padding:clamp(24px,5vw,43px);box-shadow:0 20px 65px rgba(0,0,0,.26)}
+.auth-lock{display:grid;place-items:center;width:64px;height:64px;background:#e8f3ff;color:#09549c;border-radius:17px;font-size:31px}
+.auth-eyebrow{color:#136ebc;font-size:11px;font-weight:900;letter-spacing:1.8px;margin:25px 0 9px}
+.auth-panel h1{font-size:clamp(32px,5vw,43px);line-height:1.13;letter-spacing:-1.5px;margin:0 0 16px}
+.auth-panel p{font-size:14px;line-height:1.75;color:#52677f;margin:0 0 18px}
+.auth-submit{display:block;background:#0d4c91;color:#fff;text-align:center;padding:17px 20px;border-radius:11px;font-weight:850;font-size:14px;margin:24px 0 17px}
+.auth-submit:hover,.auth-submit:focus-visible{background:#0b65c3}
+.auth-small{padding-top:17px;border-top:1px solid #e3ecf5;font-size:12px!important;color:#697c91!important;margin-bottom:0!important}
+.auth-support{font-size:12px;color:#6084a7}
+.auth-footer{font-size:12px;color:#a3bdd9;text-align:center;padding:0 20px 35px;background:#061527}
+@media(max-width:650px){.auth-shell{padding:27px 15px}.nav-wrap{gap:8px}.auth-footer{padding-bottom:25px}}
+</style>
 </head>
 <body>
 <header class="site-header"><div class="container nav-wrap">
-<a class="brand" href="./"><img src="logo.png" alt="GHD Logistics logo"><span><strong>GHD</strong><small>RECRUITING CENTER</small></span></a>
-<nav class="rec-nav" aria-label="Recruiter navigation"><a href="./" class="back-link">← Public site</a><span class="rec-label">RECRUITER ACCESS</span></nav>
+<a class="brand" href="./" aria-label="GHD Recruiting Center public home"><img src="logo.png" alt="GHD Logistics logo"><span><strong>GHD</strong><small>RECRUITING CENTER</small></span></a>
+<a class="back-link" href="./">← Public site</a>
 </div></header>
-<main>
-<section class="rec-hero"><div class="container rec-hero-grid">
-<div class="rec-copy">
-<div class="rec-eyebrow"><span class="pulse"></span> GHD LOGISTICS / STAFF WORKSPACE</div>
-<h1>Recruiter <em>Portal.</em></h1>
-<p>Your private hiring workspace starts here. Collect applications, review messages, and follow up with candidates using your authorized Jotform account.</p>
-<a class="rec-hero-btn" href="https://www.jotform.com/inbox/263164017136047" target="_blank" rel="noopener noreferrer">🔒 Sign in to Candidate Inbox <span>↗</span></a>
-<div class="rec-small">Candidate records stay in authenticated Jotform Inbox, never on this public website.</div>
-</div>
-<aside class="rec-security"><div class="rec-lock">🔐</div><div class="rec-eyebrow">PRIVATE CANDIDATE RECORDS</div><h2>Authorized recruiters only.</h2><p>Applicants can view the public job application and questions forms. They cannot view submitted candidate records without separately authorized Jotform credentials.</p><div class="rec-security-row"><span>Applicant records</span><strong>Private</strong></div><div class="rec-security-row"><span>Questions &amp; callbacks</span><strong>Private</strong></div><div class="rec-security-row"><span>Staff sign-in</span><strong>Jotform</strong></div></aside>
-</div></section>
-<section class="rec-main container">
-<div class="rec-heading"><span class="rec-eyebrow">COLLECTION INBOX / 01</span><h2>Choose your inbox.</h2><p>Each inbox opens behind Jotform's own account authentication and permissions. You may need to sign in before you can read submissions.</p></div>
-<div class="rec-cards">
-<article class="rec-card"><div class="rec-icon">🚚</div><div class="rec-kicker">PACKAGE DRIVER</div><h3>Driver Applications</h3><p>Review regular package delivery applicants for the Hopewell operation, their qualifications, and their availability.</p><a href="https://www.jotform.com/inbox/263164017136047" target="_blank" rel="noopener noreferrer" class="rec-card-link">Open protected inbox ↗</a></article>
-<article class="rec-card"><div class="rec-icon">🚙</div><div class="rec-kicker">AVP DRIVER</div><h3>AVP Applications</h3><p>Review candidates interested in using approved personal vehicles for seasonal delivery opportunities.</p><a href="https://www.jotform.com/inbox/263164784974068" target="_blank" rel="noopener noreferrer" class="rec-card-link">Open protected inbox ↗</a></article>
-<article class="rec-card"><div class="rec-icon">✉️</div><div class="rec-kicker">CANDIDATE QUESTIONS</div><h3>Questions &amp; Callbacks</h3><p>See the messages and callback details that interested drivers voluntarily provided to the recruiting team.</p><a href="https://www.jotform.com/inbox/263167032465052" target="_blank" rel="noopener noreferrer" class="rec-card-link">Open protected inbox ↗</a></article>
-</div>
-<section class="rec-control-panel" id="auto-recruit-control" aria-labelledby="auto-control-title">
-<div class="rec-control-top">
- <div><span class="rec-eyebrow">AUTO RECRUIT / CONTROL CENTER</span><h2 id="auto-control-title">Pause or activate scouting.</h2><p>Stop or resume the GHD Active Driver Scout using an authorized private GitHub control. This changes actual scouting behavior at the next scheduled hourly run, not just the status displayed on this page.</p></div>
- <div class="rec-control-status"><span class="rec-live-dot"></span><span><strong>Scheduled: 8:20 AM–5:20 PM ET</strong><small>10 hourly checks per day</small></span></div>
-</div>
-<div class="rec-control-actions">
-<a class="rec-control-button" href="https://github.com/railin360/ghd-recruiting-center/actions/workflows/scout-control.yml" target="_blank" rel="noopener noreferrer">🔒 Open Pause / Activate Controls ↗</a>
-<a class="rec-control-secondary" href="scout.html">View scout activity ↗</a>
-</div>
-<details class="rec-control-help"><summary>How to pause or reactivate the scout</summary>
-<ol><li>Sign in to your authorized GitHub account when prompted.</li><li>Choose <strong>Run workflow</strong> on the private control page.</li><li>Select <strong>pause</strong> to stop recruiting or <strong>activate</strong> to restart.</li><li>Click the green <strong>Run workflow</strong> confirmation and verify it succeeds.</li></ol>
-<p>The schedule stays enabled so the system can check for a resume command. No recruiting messages are sent while the private control file says paused. A new setting takes effect at the next hourly scout run. Only GitHub collaborators with the required permission can change the control.</p>
-</details>
-</section>
-<div class="rec-lower">
-<section class="rec-panel"><span class="rec-eyebrow">RECRUITING WORKFLOW / 02</span><h2>From first contact to HR.</h2><ol><li><strong>New</strong><small>Application or callback arrives</small></li><li><strong>Contacted</strong><small>Recruiter responds or requests screening details</small></li><li><strong>Screening</strong><small>Availability and requirements reviewed</small></li><li><strong>HR handoff</strong><small>Approved candidate information sent to HR</small></li></ol><p class="rec-fine">These are recommended stages, not automatically synchronized status labels.</p></section>
-<section class="rec-panel rec-tools"><span class="rec-eyebrow">RECRUITER TOOLS / 03</span><h2>Keep recruiting moving.</h2>
-<a href="https://employers.indeed.com/" target="_blank" rel="noopener noreferrer"><span><strong>Indeed Employer</strong><small>Review GHD job-ad applicants through your account</small></span>↗</a>
-<a href="https://www.jotform.com/myforms/" target="_blank" rel="noopener noreferrer"><span><strong>Jotform Form Manager</strong><small>Manage forms and approved collaborators</small></span>↗</a>
-<a href="scout.html"><span><strong>Active Talent Scout</strong><small>View public recruiting activity with no candidate details</small></span>↗</a>
-</section>
-</div>
-<div class="rec-note"><div style="font-size:24px">🔐</div><div><strong>Adding another recruiter?</strong><p>Grant them access through Jotform's authorized collaboration settings using their own account. Don't share passwords, enable public inbox sharing, or store applicants in a public repository.</p></div></div>
-<div class="rec-install"><button type="button" class="button-install install-app-btn">↓ Install GHD App</button><div id="install-app-notice" class="install-app-notice" hidden role="status"></div></div>
+<main class="auth-shell">
+<section class="auth-panel" aria-labelledby="auth-title">
+<div class="auth-lock" aria-hidden="true">🔒</div>
+<div class="auth-eyebrow">PRIVATE STAFF ACCESS</div>
+<h1 id="auth-title">Recruiter sign-in required.</h1>
+<p>Applications, callback inquiries, candidate records and Auto Recruit management are available only through an authorized GHD recruiting account.</p>
+<a class="auth-submit" href="https://www.jotform.com/inbox/263164017136047" rel="noopener noreferrer">Sign in to your recruiter account ↗</a>
+<p class="auth-small">Sign-in and access permissions are enforced by Jotform. If your approved account already has an active session, you may be signed in without entering your password again. For the AUTO RECRUIT management page, open GHD Recruiting Center inside your authorized Jotform account. Contact your GHD administrator for access; never share passwords.</p>
 </section>
 </main>
-<footer class="footer"><div class="container footer-inner"><a href="./" class="footer-brand"><img src="logo.png" alt=""> GHD RECRUITING CENTER</a><div><a href="./">Public recruiting</a><a href="privacy.html">Privacy</a></div><small>© <span data-year></span> GHD Logistics.</small></div></footer>
-</body></html>
+<footer class="auth-footer">GHD Logistics • Hopewell, Virginia • Staff systems require authorization</footer>
+</body>
+</html>
