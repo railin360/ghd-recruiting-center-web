@@ -1,0 +1,22 @@
+.contact-hero{background:radial-gradient(ellipse at 80% 15%,#194574 0%,#092341 48%,#061529 100%);color:#fff;padding:72px 0 130px}
+.contact-hero h1{font-size:clamp(50px,7vw,86px);line-height:1.08;letter-spacing:-3px;margin:20px 0}
+.contact-hero h1 em{font-family:Georgia,serif;font-weight:500;color:#7bceff}
+.contact-hero p{font-size:16px;line-height:1.8;color:#bfd1e7;max-width:690px}
+.contact-kicker{font-size:11px;letter-spacing:2px;color:#3990f1;font-weight:900}
+.contact-hero .contact-kicker{color:#b8d7fc}
+.contact-wrap{position:relative;margin-top:-76px;padding-bottom:80px}
+.contact-panel{background:#fff;max-width:900px;margin:0 auto;border-radius:19px;overflow:hidden;box-shadow:0 22px 80px rgba(10,28,60,.13);border:1px solid #dce7f2}
+.contact-panel-top{padding:34px 34px 16px}
+.contact-panel-top h2{font-size:clamp(27px,4vw,39px);line-height:1.14;letter-spacing:-1px;margin:11px 0 12px;color:#0a2a4b}
+.contact-panel-top p{color:#546b85;line-height:1.75;max-width:780px}
+.contact-safety{margin:22px 0 4px;padding:16px 18px;border-left:4px solid #1477e6;background:#edf5ff;border-radius:5px;color:#183c64;font-size:13px;line-height:1.65}
+.contact-safety strong{display:block}
+.contact-form-frame{width:100%;height:960px;border:0;background:#fff;display:block}
+.contact-fallback{margin:0;padding:18px 34px 26px;border-top:1px solid #e6edf6;color:#5e7289;font-size:13px}
+.contact-fallback a,.contact-subnote a{color:#086bd1;text-decoration:underline;text-underline-offset:3px;font-weight:750}
+.contact-subnote{max-width:900px;margin:23px auto 0;color:#6b7d90;font-size:12px;line-height:1.7}
+.contact-subnote p{margin:0 0 9px}
+.contact-hero .scout-install-row{display:flex;gap:12px;margin-top:22px}
+.scout-install-row .button-install{background:#fff;color:#0c2d50}
+.scout-install-row .button-install:hover{background:#dbeeff}
+@media(max-width:650px){.contact-hero{padding:50px 0 106px}.contact-wrap{margin-top:-65px}.contact-panel-top{padding:25px 20px 11px}.contact-form-frame{height:1070px}.contact-fallback{padding:15px 20px 25px}.contact-subnote{padding:0 4px}.site-header .nav-wrap .back-link{font-size:12px}}
