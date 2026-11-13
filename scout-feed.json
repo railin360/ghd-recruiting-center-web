@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
+  "last_checked_at": "2026-11-13T21:55:00Z",
+  "last_scout_run_at": null,
+  "scout_schedule": "Scheduled hourly 8:20 AM–5:20 PM Eastern, beginning November 14, 2026",
+  "status": "Awaiting first automated scouting run",
+  "campaign": "Hopewell, Virginia only",
+  "numbers": {
+    "verified_referral_channels": 3,
+    "outreach_sent": 3,
+    "candidate_matches_confirmed": 0,
+    "interviews_confirmed": 0
+  },
+  "disclosure": "Confirmed candidate matches or interviews will only be counted after evidence. Individual applicant information is never displayed on this public page.",
+  "sources": [
+    {
+      "id": "crater",
+      "name": "Virginia Career Works, Crater Region",
+      "type": "Candidate referrals and prescreening",
+      "role": "Both roles",
+      "url": "https://vcw-crater.com/business-services/",
+      "contact": "info@vcwcraterregion.com",
+      "stage": "Outreach sent",
+      "last_action": "2026-11-13",
+      "note": "Requested employer jobseeker referrals and posting support. Awaiting response."
+    },
+    {
+      "id": "brightpoint",
+      "name": "Brightpoint Community College",
+      "type": "Handshake and alumni recruiting",
+      "role": "Both roles",
+      "url": "https://www.brightpoint.edu/services/career-services/employers/",
+      "contact": "careers@brightpoint.edu",
+      "stage": "Outreach sent",
+      "last_action": "2026-11-13",
+      "note": "Requested recruitment access and candidate channels. Awaiting response."
+    },
+    {
+      "id": "vawc",
+      "name": "Virginia Workforce Connection",
+      "type": "Public workforce job matching",
+      "role": "Both roles",
+      "url": "https://www.vawc.virginia.gov",
+      "contact": "vwcassistancecenter@virginiaworks.gov",
+      "stage": "Outreach sent",
+      "last_action": "2026-11-13",
+      "note": "Requested employer matching and job posting assistance. Awaiting response."
+    }
+  ],
+  "actions": [
+    {
+      "date": "2026-11-13",
+      "type": "Email sent",
+      "title": "Referral request sent to Virginia Career Works Crater",
+      "detail": "Request sent to employer-facing workforce program; no candidate names have been provided yet."
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Email sent",
+      "title": "Handshake recruitment inquiry sent to Brightpoint",
+      "detail": "Asked about posting roles to students and alumni and matching jobseekers."
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Email sent",
+      "title": "Virginia Workforce Connection employer matching requested",
+      "detail": "Requested assistance accessing legitimate jobseeker matching and employer job posting."
+    }
+  ]
+}
