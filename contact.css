@@ -20,3 +20,18 @@
 .scout-install-row .button-install{background:#fff;color:#0c2d50}
 .scout-install-row .button-install:hover{background:#dbeeff}
 @media(max-width:650px){.contact-hero{padding:50px 0 106px}.contact-wrap{margin-top:-65px}.contact-panel-top{padding:25px 20px 11px}.contact-form-frame{height:1070px}.contact-fallback{padding:15px 20px 25px}.contact-subnote{padding:0 4px}.site-header .nav-wrap .back-link{font-size:12px}}
+
+/* Inline recruiting question box and contact-page navigation */
+.ghd-question-section{background:#edf4fc;padding:90px 0}
+.ghd-question-section .section-heading{margin-bottom:29px}
+.ghd-question-section .contact-panel{max-width:990px}
+.ghd-question-section .contact-panel-top{padding:15px 28px 7px}
+.ghd-question-section .contact-form-frame{height:940px}
+.scout-header-actions{display:flex;align-items:center;gap:24px}
+@media(max-width:650px){
+ .ghd-question-section{padding:58px 0}
+ .ghd-question-section .contact-form-frame{height:1060px}
+ .ghd-question-section .contact-panel-top{padding:13px 17px 7px}
+ .scout-header-actions{gap:12px}
+ .scout-header-actions .back-link{font-size:11px}
+}
