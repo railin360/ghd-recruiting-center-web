@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-13T21:55:00Z",
-  "last_scout_run_at": null,
-  "scout_schedule": "Scheduled hourly 8:20 AM–5:20 PM Eastern, beginning November 14, 2026",
-  "status": "Awaiting first automated scouting run",
+  "last_checked_at": "2026-11-13T22:20:00Z",
+  "last_scout_run_at": "2026-11-13T22:20:00Z",
+  "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
+  "status": "First recruiting run completed; 2 new contacts reached, awaiting referrals",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
-    "verified_referral_channels": 3,
-    "outreach_sent": 3,
+    "verified_referral_channels": 5,
+    "outreach_sent": 5,
     "candidate_matches_confirmed": 0,
     "interviews_confirmed": 0
   },
@@ -46,9 +46,49 @@
       "stage": "Outreach sent",
       "last_action": "2026-11-13",
       "note": "Requested employer matching and job posting assistance. Awaiting response."
+    },
+    {
+      "id": "network2work",
+      "name": "Network2WorkRVA",
+      "type": "Opt-in candidate referrals and employer matching",
+      "role": "Both roles",
+      "url": "https://network2workrva.com/employers.aspx",
+      "contact": "employer@ccwa.vccs.edu",
+      "stage": "Outreach sent",
+      "last_action": "2026-11-13",
+      "note": "Asked whether Peak-season delivery roles qualify and whether active logistics job seekers can be referred. Awaiting response."
+    },
+    {
+      "id": "petersburg-event",
+      "name": "Virginia Works Petersburg Hiring Event",
+      "type": "December 9 in-person job-seeker hiring event",
+      "role": "Both roles",
+      "url": "https://virginiaworks.gov/job-fair/2nd-wednesday-hiring-event-petersburg/",
+      "contact": "tshambi.hall@virginiaworks.gov",
+      "stage": "Outreach sent",
+      "last_action": "2026-11-13",
+      "note": "Asked about employer participation and earlier referrals of actively seeking local drivers. No participation confirmed."
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-13",
+      "type": "Scout run",
+      "title": "GHD Active Driver Scout started ahead of schedule",
+      "detail": "Initial scouting run checked referral partners and question inbox; no confirmed individual candidates or inquiries yet."
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Email sent",
+      "title": "Virginia Works Petersburg event organizer contacted",
+      "detail": "Confirmed email sent about December 9 hiring event participation and early driver candidate referrals."
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Email sent",
+      "title": "Network2WorkRVA candidate-matching referral requested",
+      "detail": "Confirmed email sent to public employer liaison asking for active driver referrals and whether seasonal roles qualify."
+    },
     {
       "date": "2026-11-13",
       "type": "Email sent",
