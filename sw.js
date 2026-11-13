@@ -1,7 +1,7 @@
 /* Offline app shell only. Applicant data and recruiting activity feeds are never cached. */
-const CACHE_NAME = "ghd-recruiting-app-shell-v3";
+const CACHE_NAME = "ghd-recruiting-app-shell-v4";
 const SCOPE = self.registration.scope;
-const URLS = ["./", "./index.html", "./styles.css", "./install.css", "./app.js", "./install.js", "./logo.png", "./icon-192.png", "./icon-512.png", "./manifest.webmanifest", "./scout.html", "./scout.css", "./scout.js", "./contact.html", "./contact.css", "./privacy.html", "./recruiter.html", "./recruiter.css"];
+const URLS = ["./", "./index.html", "./styles.css", "./install.css", "./app.js", "./install.js", "./logo.png", "./icon-192.png", "./icon-512.png", "./manifest.webmanifest", "./scout.html", "./scout.css", "./scout.js", "./contact.html", "./contact.css", "./privacy.html", "./recruiter.css"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(URLS.map(p => new URL(p, SCOPE).href))).then(() => self.skipWaiting()));
 });
@@ -13,6 +13,7 @@ self.addEventListener("fetch", event => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin || !url.href.startsWith(SCOPE) || url.pathname.endsWith("/scout-feed.json")) return;
+  if (url.pathname.endsWith("/recruiter.html")) { event.respondWith(fetch(new Request(req, { cache: "no-store" }))); return; }
   const isNavigation = req.mode === "navigate";
   if (isNavigation) {
     event.respondWith(fetch(req).catch(async () => (await caches.match(req)) || caches.match(new URL("./index.html", SCOPE).href)));
