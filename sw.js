@@ -1,7 +1,7 @@
 /* Offline app shell only. Applicant data and recruiting activity feeds are never cached. */
-const CACHE_NAME = "ghd-recruiting-app-shell-v4";
+const CACHE_NAME = "ghd-recruiting-app-shell-v5";
 const SCOPE = self.registration.scope;
-const URLS = ["./", "./index.html", "./styles.css", "./install.css", "./app.js", "./install.js", "./logo.png", "./icon-192.png", "./icon-512.png", "./manifest.webmanifest", "./scout.html", "./scout.css", "./scout.js", "./contact.html", "./contact.css", "./privacy.html", "./recruiter.css"];
+const URLS = ["./", "./index.html", "./styles.css", "./install.css", "./app.js", "./install.js", "./logo.png", "./icon-192.png", "./icon-512.png", "./manifest.webmanifest", "./scout.html", "./scout.css", "./scout.js", "./dashboard-nav.css", "./dashboard-nav.js", "./contact.html", "./contact.css", "./privacy.html", "./recruiter.css"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(URLS.map(p => new URL(p, SCOPE).href))).then(() => self.skipWaiting()));
 });
