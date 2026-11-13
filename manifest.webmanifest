@@ -50,6 +50,19 @@
           "type": "image/png"
         }
       ]
+    },
+    {
+      "name": "Recruiter Sign-In",
+      "short_name": "Recruiter",
+      "description": "Open recruiter portal and private inbox sign-in",
+      "url": "./recruiter.html",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
