@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07172b">
+<meta name="description" content="Verified public sourcing activity for GHD Logistics driver recruitment around Hopewell, Virginia.">
+<title>Talent Scout | GHD Recruiting Center</title>
+<link rel="icon" href="icon-192.png"><link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="scout.css">
+<script src="scout.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="./" aria-label="GHD Recruiting Center home"><img src="logo.png" alt="GHD logo"><span><strong>GHD</strong><small>RECRUITING CENTER</small></span></a>
+    <nav class="scout-header-actions" aria-label="Scout navigation"><a href="./" class="back-link">← Recruiting site</a><a class="scout-top-link" href="https://www.vawc.virginia.gov" target="_blank" rel="noopener noreferrer">Employer matching ↗</a></nav>
+  </div>
+</header>
+<main>
+<section class="scout-hero">
+  <div class="container">
+    <div class="scout-eyebrow"><span class="pulse"></span> GHD LOGISTICS / HOPEWELL, VIRGINIA</div>
+    <div class="scout-headline">
+      <div><h1>Talent <em>Scout.</em></h1><p>Active recruiting operations. Verified candidate-referral channels, outreach history, and a live report from the scheduled GHD driver scout.</p></div>
+      <div class="scout-live-card"><div class="scout-live-dot"></div><div><strong id="scout-status">Loading activity</strong><small id="scout-schedule">Checking recruiting feed…</small></div></div>
+    </div>
+  </div>
+</section>
+<section class="scout-workspace container" aria-label="Recruiting operations dashboard">
+  <div class="scout-toolbar">
+    <div><span class="scout-caption">OPERATION / 01</span><h2>Candidate acquisition</h2><p>Source, connect, screen, follow up. These are real recorded recruiting actions, not invented leads.</p></div>
+    <button type="button" class="scout-refresh" id="scout-refresh">↻ Refresh activity</button>
+  </div>
+  <div class="scout-metrics" aria-label="Verified recruiting totals">
+    <div class="scout-metric"><span>Verified referral channels</span><strong id="count-channels">—</strong><small>Local employers and workforce partners</small></div>
+    <div class="scout-metric"><span>Outreach sent</span><strong id="count-sends">—</strong><small>Actual confirmed messages</small></div>
+    <div class="scout-metric"><span>Candidate matches</span><strong id="count-matches">—</strong><small>Confirmed people actively seeking work</small></div>
+    <div class="scout-metric"><span>Interview-ready</span><strong id="count-interviews">—</strong><small>Confirmed screening outcomes</small></div>
+  </div>
+  <div class="scout-columns">
+    <section class="scout-panel" aria-labelledby="sourcing-title">
+      <div class="scout-panel-head"><span class="scout-caption">DISCOVERY / 02</span><h2 id="sourcing-title">Sourcing pipeline</h2><p>Real programs that can connect GHD with opted-in job seekers.</p></div>
+      <div class="scout-filters" role="group" aria-label="Filter sourcing pipeline">
+        <button type="button" class="scout-filter active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="scout-filter" data-filter="Package Delivery Driver" aria-pressed="false">Package driver</button>
+        <button type="button" class="scout-filter" data-filter="AVP Driver" aria-pressed="false">AVP driver</button>
+      </div>
+      <div id="source-list" class="scout-sources" aria-live="polite"><p class="scout-loading">Loading verified sourcing channels…</p></div>
+    </section>
+    <aside class="scout-side" aria-label="Scout activity and access">
+      <section class="scout-panel scout-activity">
+        <div class="scout-panel-head"><span class="scout-caption">FIELD NOTES / 03</span><h2>Recruiting activity</h2><p id="last-checked">Checking last update…</p></div>
+        <ol id="activity-list" class="scout-activity-list" aria-live="polite"><li>Loading recorded outreach…</li></ol>
+      </section>
+      <section class="scout-private">
+        <span class="scout-caption">HIRING TEAM / PRIVATE</span><h2>Where are the actual candidates?</h2>
+        <p>Applicant names, phone numbers, screening notes and resumes must stay inside your authorized hiring systems. This public view intentionally shows only non-personal progress.</p>
+        <a href="https://employers.indeed.com/" target="_blank" rel="noopener noreferrer" class="scout-btn">Open Indeed Employer ↗</a>
+        <a href="https://www.jotform.com/app/263164402681151" target="_blank" rel="noopener noreferrer" class="scout-btn outline">Open existing applicant intake ↗</a>
+      </section>
+    </aside>
+  </div>
+  <p class="scout-disclosure" id="scout-disclosure">No applicant personal data is published here. Do not treat an outreach email as a candidate match.</p>
+  <div class="scout-error" role="status" id="scout-error" hidden></div>
+</section>
+</main>
+<footer class="footer"><div class="container footer-inner"><a class="footer-brand" href="./"><img src="logo.png" alt=""> GHD RECRUITING CENTER</a><div><span>Hopewell, Virginia</span><a href="privacy.html">Privacy</a></div><small>© <span id="scout-year">2026</span> GHD Logistics. Independent contractor recruiting.</small></div></footer>
+</body>
+</html>
