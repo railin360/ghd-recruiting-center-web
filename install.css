@@ -1,0 +1,14 @@
+/* Install button and home-screen help for GHD Recruiting Center */
+.button-install{appearance:none;border:1px solid rgba(255,255,255,.52);background:rgba(255,255,255,.12);color:#fff;cursor:pointer;min-height:48px;display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:10px;font-weight:800;font-size:13px;transition:background .15s,border-color .15s;white-space:normal;text-align:center}
+.button-install:hover,.button-install:focus-visible{background:#fff;color:#0b2850;border-color:#fff}
+.button-install:disabled{opacity:.75;cursor:default}
+.install-app-notice{max-width:620px;background:#e9f3ff;border:1px solid #90bcf1;border-radius:14px;color:#0d2f58;padding:18px 21px;margin:18px 0 0;box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.install-app-notice strong{font-size:16px;display:block}
+.install-app-notice p{margin:9px 0 14px;line-height:1.65;font-size:14px}
+.install-app-notice button{background:#0c4b8d;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-weight:750;cursor:pointer}
+.install-app-notice[hidden]{display:none!important}
+.scout-install-row{margin-top:24px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.scout-install-row a{display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:750;font-size:13px;padding:13px 20px;border:1px solid rgba(255,255,255,.35);border-radius:10px}
+.scout-install-row .button-install{background:#fff;color:#0d2d53}
+.scout-install-row .button-install:hover{background:#d8ecff}
+@media(max-width:560px){.hero-actions .button-install{width:100%}.scout-install-row>*{width:100%}}
