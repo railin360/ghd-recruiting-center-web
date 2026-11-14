@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-13T22:24:00Z",
-  "last_scout_run_at": "2026-11-13T22:24:00Z",
+  "last_checked_at": "2026-11-14T13:24:18Z",
+  "last_scout_run_at": "2026-11-14T13:24:18Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Follow-up check: five outreach emails sent today; awaiting replies and candidate referrals",
+  "status": "Active: no new confirmed candidates or replies; employer matching access needed",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -68,9 +68,26 @@
       "stage": "Outreach sent",
       "last_action": "2026-11-13",
       "note": "Asked about employer participation and earlier referrals of actively seeking local drivers. No participation confirmed."
+    },
+    {
+      "id": "vec-employer-search",
+      "name": "Virginia Employment Commission employer candidate search",
+      "type": "Authorized employer jobseeker search and contact access",
+      "role": "Both roles",
+      "url": "https://vec.virginia.gov/services",
+      "contact": "Employer registration through Virginia Workforce Connection",
+      "stage": "Verified avenue; employer login required",
+      "last_action": "2026-11-14",
+      "note": "Official VEC confirms registered employers can search job candidates; no applicant profile accessed or contacted."
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-14",
+      "type": "Scout run",
+      "title": "Employer matching access verified; no candidate outreach",
+      "detail": "Private scout control active. Checked referral inbox and Questions & Contact submissions: no results returned. Verified VEC employer candidate search requires authorized registration. No new sends, matches, or interviews confirmed."
+    },
     {
       "date": "2026-11-13",
       "type": "Scout run",
