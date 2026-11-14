@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-14T15:17:19.229Z",
-  "last_scout_run_at": "2026-11-14T15:17:19.229Z",
+  "last_checked_at": "2026-11-14T16:24:26Z",
+  "last_scout_run_at": "2026-11-14T16:24:26Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active: prior referrals pending; no new verified candidates or callbacks",
+  "status": "Active: Goodwill matching avenue verified; no new candidates or replies",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -79,9 +79,26 @@
       "stage": "Verified avenue; employer login required",
       "last_action": "2026-11-14",
       "note": "Official VEC confirms registered employers can search job candidates; no applicant profile accessed or contacted."
+    },
+    {
+      "id": "goodwill-central-coastal-vocational",
+      "name": "Goodwill of Central and Coastal Virginia Vocational Services",
+      "type": "Jobseeker assessment, supported employment and employer matching",
+      "role": "Both roles; individual eligibility and driving qualifications must be screened",
+      "url": "https://goodwillvirginia.org/get-job-ready/vocational-services/for-referral-sources/",
+      "contact": "804-745-6300 (public central Virginia vocational services phone)",
+      "stage": "Verified referral avenue; not contacted",
+      "last_action": "2026-11-14",
+      "note": "Official program describes assessment and matching jobseekers to employers. No candidate, program eligibility, or employer contact confirmed."
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-14",
+      "type": "Scout run",
+      "title": "New Goodwill candidate-matching avenue verified; no outreach sent",
+      "detail": "Private control active. Gmail checked against five Nov 13 referral sends: no verified referral replies. Questions & Contact form returned no matching submissions. Goodwill vocational services employer-matching route verified, public phone available but no published employer email confirmed; no new emails or candidate contact. Authenticated employer candidate access still outstanding."
+    },
     {
       "date": "2026-11-14",
       "type": "Scout run",
