@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-14T20:17:40.000Z",
-  "last_scout_run_at": "2026-11-14T20:17:40.000Z",
+  "last_checked_at": "2026-11-14T21:24:48.000Z",
+  "last_scout_run_at": "2026-11-14T21:24:48.000Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active: five prior referral sends verified; no replies, callbacks or candidate matches confirmed",
+  "status": "Active: five prior referral emails verified; no new replies, callback submissions or confirmed matches",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -93,6 +93,12 @@
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-14",
+      "type": "Scout run",
+      "title": "Late-afternoon referral and callback review",
+      "detail": "Private control verified active. Gmail search reconfirmed five November 13 referral sends, without matching referral replies. Jotform Questions & Contact returned no matching submissions. No new outreach, confirmed candidate matches or interviews; authorized employer candidate-search access still outstanding."
+    },
     {
       "date": "2026-11-14",
       "type": "Scout run",
