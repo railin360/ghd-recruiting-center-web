@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-15T16:16:54.503Z",
-  "last_scout_run_at": "2026-11-15T16:16:54.503Z",
+  "last_checked_at": "2026-11-15T17:17:42.661Z",
+  "last_scout_run_at": "2026-11-15T17:17:42.661Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active: referral inbox and callback intake checked; no verified applicant matches; Indeed employer access still required",
+  "status": "Active: Gmail and Questions & Contact checked; no verified new candidate replies or submissions; Indeed employer access still required",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
