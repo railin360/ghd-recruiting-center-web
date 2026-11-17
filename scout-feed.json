@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-17T19:20:40Z",
-  "last_scout_run_at": "2026-11-17T19:20:40Z",
+  "last_checked_at": "2026-11-17T20:20:42Z",
+  "last_scout_run_at": "2026-11-17T20:20:42Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active: control verified; no relevant applicant/referral response in recent Gmail recruiting results; Jotform no matching Nov 13–17 submissions; Indeed employer access unavailable; private recruiting-history.json missing",
+  "status": "Active: Virginia Works replied with free employer registration instructions and Prince George office contact; no Jotform Nov 13–17 submissions; Indeed employer access unavailable; private recruiting-history.json missing",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -43,9 +43,9 @@
       "role": "Both roles",
       "url": "https://www.vawc.virginia.gov",
       "contact": "vwcassistancecenter@virginiaworks.gov",
-      "stage": "Outreach sent",
-      "last_action": "2026-11-13",
-      "note": "Requested employer matching and job posting assistance. Awaiting response."
+      "stage": "Response received; employer registration required",
+      "last_action": "2026-11-17",
+      "note": "Virginia Works confirmed free VaWC employer registration; FEIN and SUIN required. Prince George office available for assistance. No candidate referral yet."
     },
     {
       "id": "network2work",
@@ -93,6 +93,12 @@
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-17",
+      "type": "Referral partner response",
+      "title": "Virginia Works provided employer registration route",
+      "detail": "Verified Virginia Works email response Nov 17: register employer at vawc.virginia.gov with FEIN and SUIN, then post driver vacancy; Prince George office offers local assistance. No candidate referral or applicant screening confirmed. Jotform Nov 13–17 returned no matching submissions; Indeed access unavailable; private recruiting-history.json not found. Zero new sends, screened candidates, qualified follow-ups, manager referrals or interviews."
+    },
     {
       "date": "2026-11-17",
       "type": "Scout run",
