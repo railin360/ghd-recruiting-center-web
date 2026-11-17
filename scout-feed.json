@@ -96,6 +96,12 @@
     {
       "date": "2026-11-17",
       "type": "Scout run",
+      "title": "Tuesday 12:20 PM recruiting intake review",
+      "detail": "Private control schema_version 1 and active verified. Recent Gmail recruiting-term results reviewed without verified applicant or referral reply. Jotform form 263167032465052 returned no matching Nov 13–17 submissions. Indeed employer applicant access unavailable; private recruiting-history.json unavailable at checked path. Zero screened, qualified follow-ups, manager referrals, interviews, new sends, or newly verified avenues. No applicant data published."
+    },
+    {
+      "date": "2026-11-17",
+      "type": "Scout run",
       "title": "Tuesday 11:17 AM recruiting intake review",
       "detail": "Verified private control schema_version 1 and active. Gmail recent recruiting-term results reviewed, no verified applicant or partner replies. Jotform form 263167032465052 returned no matching Nov 13–17 submissions. Private recruiting-history.json missing at checked path; Indeed employer applicant access unavailable. Zero screened, qualified follow-ups, manager referrals, interviews, new sends, or newly verified avenues. No applicant information published."
     },
