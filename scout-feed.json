@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-18T15:22:39Z",
-  "last_scout_run_at": "2026-11-18T15:22:39Z",
+  "last_checked_at": "2026-11-18T16:20:33Z",
+  "last_scout_run_at": "2026-11-18T16:20:33Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
   "status": "Active: no new verified applicant intake; Indeed employer access unavailable; private recruiting history missing; Virginia Works registration pending",
   "campaign": "Hopewell, Virginia only",
@@ -93,6 +93,12 @@
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-18",
+      "type": "Scout run",
+      "title": "Wednesday 11:20 AM recruiting intake review",
+      "detail": "Private control schema_version 1 and mode active verified. Gmail recent recruiting messages checked; only previously recorded Virginia Works reply, no new verified applicant or referral replies. Jotform 263167032465052 returned no matching Nov 13–18 submissions. Indeed employer applicant access unavailable; private recruiting-history.json returned 404. Zero screened, qualified follow-ups, manager referrals, confirmed interviews, sends or newly verified avenues. No personal applicant data published."
+    },
     {
       "date": "2026-11-18",
       "type": "Scout run",
