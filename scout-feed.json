@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-19T21:20:00Z",
-  "last_scout_run_at": "2026-11-19T21:20:00Z",
+  "last_checked_at": "2026-11-19T22:22:25Z",
+  "last_scout_run_at": "2026-11-19T22:22:25Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active: FedEx initial-qualification denial alert received; no verified new opt-in applicants in accessible Gmail/Jotform; Indeed employer access unavailable; private history missing; Virginia Works registration pending",
+  "status": "Active: existing FedEx qualification-denial alert still requires management review; no new verified opt-in applicants in accessible Gmail/Jotform; Indeed employer access unavailable; private history missing; Virginia Works registration pending",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -93,6 +93,12 @@
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-19",
+      "type": "Scout run",
+      "title": "Thursday 5:22 PM recruiting intake review",
+      "detail": "Private control schema_version 1 and active verified. Gmail Nov 18–19 search identified previously recorded FedEx initial-qualification denial notification but no new consented applicant or referral-partner replies. Jotform 263167032465052 returned no matching Nov 18–19 submissions. Private recruiting-history.json returned 404; authenticated Indeed employer applicant access unavailable. Zero newly screened, qualified follow-ups, manager referrals, interviews, sends or verified avenues. No applicant identity published."
+    },
     {
       "date": "2026-11-19",
       "type": "Scout run",
