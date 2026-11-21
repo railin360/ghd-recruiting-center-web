@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-21T16:23:55Z",
-  "last_scout_run_at": "2026-11-21T16:23:55Z",
+  "last_checked_at": "2026-11-21T17:22:46Z",
+  "last_scout_run_at": "2026-11-21T17:22:46Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active; Nov 21 11:23 AM ET: no new verified applicants in accessible Gmail/Jotform; private history 404; Indeed employer access unavailable",
+  "status": "Active; Nov 21 12:22 PM ET: no new verified applicants in accessible Gmail/Jotform; private history 404; Indeed employer access unavailable",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -93,6 +93,12 @@
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-21",
+      "type": "Scout run",
+      "title": "Saturday 12:22 PM ET recruiting intake review",
+      "detail": "Private control schema_version 1 and active verified. Gmail checked since Nov 18; no new verified opted-in GHD Hopewell regular driver or AVP applicants or recruiting partner replies; unrelated personal job alerts and FedEx operational notices excluded. Jotform 263167032465052 returned no matching Nov 19–21 submissions. Private recruiting-history.json returned 404; Indeed employer applicant access unavailable. This check: 0 screened, 0 qualified follow-ups, 0 manager referrals, 0 confirmed interviews, 0 outreach sends, 0 new verified avenues. Existing FedEx qualification denial remains for authorized manager review. No applicant identity published."
+    },
     {
       "date": "2026-11-21",
       "type": "Scout run",
