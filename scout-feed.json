@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-22T20:16:38Z",
-  "last_scout_run_at": "2026-11-22T20:16:38Z",
+  "last_checked_at": "2026-11-22T21:18:53Z",
+  "last_scout_run_at": "2026-11-22T21:18:53Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active; Nov 22 3:16 PM ET: no verified new opted-in applicants in accessible Gmail or Nov 19–22 Jotform; private history missing; Indeed employer access unavailable",
+  "status": "Active; Nov 22 4:18 PM ET: no verified opted-in applicants in accessible Gmail/Jotform; private history 404 and Indeed employer applicant access unavailable",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -93,6 +93,12 @@
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-22",
+      "type": "Scout run",
+      "title": "Sunday 4:18 PM ET recruiting intake review",
+      "detail": "Private control schema_version 1 and mode active verified. Recruiting-related Gmail since Nov 18 reviewed; no verified opted-in Hopewell driver/AVP applicants or workforce partner replies found among accessible results; unrelated personal job alerts and studio correspondence excluded. Jotform 263167032465052 returned no matching Nov 19–22 submissions. Private recruiting-history.json 404 prevents reliable historical deduplication; Indeed employer applicant access unavailable. This check: 0 screened, 0 qualified follow-ups, 0 manager referrals, 0 confirmed interviews, 0 sends, 0 new verified avenues. No personal applicant information published."
+    },
     {
       "date": "2026-11-22",
       "type": "Scout run",
