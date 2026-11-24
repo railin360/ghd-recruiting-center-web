@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "Public non-personal recruiting activity summary for GHD Logistics Hopewell.",
-  "last_checked_at": "2026-11-23T22:24:16Z",
-  "last_scout_run_at": "2026-11-23T22:24:16Z",
+  "last_checked_at": "2026-11-24T14:20:07Z",
+  "last_scout_run_at": "2026-11-24T14:20:07Z",
   "scout_schedule": "Hourly 8:20 AM–5:20 PM Eastern, starting November 13, 2026",
-  "status": "Active; Nov 23 5:24 PM ET: no verified new applicants; private recruiting history 404, Indeed employer access unavailable; Jotform no matching submissions",
+  "status": "Active; no verified new applicants; private history unavailable; new referral avenues researched",
   "campaign": "Hopewell, Virginia only",
   "numbers": {
     "verified_referral_channels": 5,
@@ -90,9 +90,37 @@
       "stage": "Verified referral avenue; not contacted",
       "last_action": "2026-11-14",
       "note": "Official program describes assessment and matching jobseekers to employers. No candidate, program eligibility, or employer contact confirmed."
+    },
+    {
+      "id": "petersburg-view",
+      "name": "Petersburg Department of Social Services VIEW Job Club",
+      "type": "Local employment support and job club",
+      "role": "Both roles",
+      "url": "https://www.petersburgva.gov/323/Employment-Services",
+      "contact": "804-861-4720",
+      "stage": "Verified avenue; not contacted",
+      "last_action": "2026-11-24",
+      "note": "Weekly job club; employer referral participation not confirmed."
+    },
+    {
+      "id": "snap-et-va",
+      "name": "Virginia SNAP Employment and Training",
+      "type": "Employment support in Petersburg and Prince George",
+      "role": "Both roles",
+      "url": "https://www.dss.virginia.gov/relief/food-assistance/snap/snap-employment-and-training-et/",
+      "contact": "workforceservices@dss.virginia.gov",
+      "stage": "Verified avenue; not contacted",
+      "last_action": "2026-11-24",
+      "note": "Local employment support verified; employer referral process not confirmed."
     }
   ],
   "actions": [
+    {
+      "date": "2026-11-24",
+      "type": "Scout run",
+      "title": "Tuesday morning recruiting and referral research",
+      "detail": "No verified new applicants in Gmail or Jotform. Private history returned 404. No sends, screening, referrals or interviews. 2 new public employment-support avenues identified; employer participation not confirmed."
+    },
     {
       "date": "2026-11-23",
       "type": "Scout run",
